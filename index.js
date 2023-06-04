@@ -1,32 +1,33 @@
-let score = 0;
+let scoreHome = 0;
+let scoreGuest = 0;
 let homeScore = document.querySelector(".home-score");
 let guestScore = document.querySelector(".guest-score");
 
-homeScore.textContent = score;
-guestScore.textContent = score;
+homeScore.textContent = scoreHome;
+guestScore.textContent = scoreGuest;
 
 function plusOneHome() {
-  score += 1;
-  homeScore.textContent = score;
+  scoreHome += 1;
+  homeScore.textContent = scoreHome;
 }
 function plusTwoHome() {
-  score += 2;
-  homeScore.textContent = score;
+  scoreHome += 2;
+  homeScore.textContent = scoreHome;
 }
 function plusThreeHome() {
-  score += 3;
-  homeScore.textContent = score;
+  scoreHome += 3;
+  homeScore.textContent = scoreHome;
 }
 
 function plusOneGuest() {
-  score += 1;
-  guestScore.textContent = score;
+  scoreGuest += 1;
+  guestScore.textContent = scoreGuest;
 }
 function plusTwoGuest() {
-  score += 2;
-  guestScore.textContent = score;
+  scoreGuest += 2;
+  guestScore.textContent = scoreGuest;
 }
 function plusThreeGuest() {
-  score += 3;
-  guestScore.textContent = score;
+  scoreGuest += 3;
+  guestScore.textContent = scoreGuest;
 }
